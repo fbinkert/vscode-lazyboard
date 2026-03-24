@@ -286,6 +286,11 @@
     "when": "vim.mode == 'Normal' && editorTextFocus"
   },
   {
+    "key": "g g",
+    "command": "cursorTop",
+    "when": "vim.mode == 'Normal' && editorTextFocus"
+  },
+  {
     "key": "g shift+d",
     "command": "editor.action.revealDeclaration",
     "when": "vim.mode == 'Normal' && editorTextFocus"

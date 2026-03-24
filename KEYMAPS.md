@@ -44,6 +44,7 @@
 - `<leader>s s` -> document symbols
 - `<leader>s S` -> workspace symbols
 - `g d` -> definition
+- `g g` -> top of file
 - `g D` -> declaration
 - `g r` -> references
 - `g i` -> implementation
