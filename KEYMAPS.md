@@ -23,6 +23,7 @@
 - `Ctrl-w s` -> split below
 - `Ctrl-w v` -> split right
 - `Ctrl-w c` -> close editor
+- `Ctrl-w H/J/K/L` -> move active editor between groups
 - `<leader>f f` -> find files
 - `<leader>f g` -> grep in files
 - `<leader>f t` -> create terminal editor

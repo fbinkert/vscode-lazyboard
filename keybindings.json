@@ -138,6 +138,26 @@
     "when": "(vim.mode == 'Normal' && activeEditor && (editorTextFocus || !inputFocus)) || terminalEditorFocus"
   },
   {
+    "key": "ctrl-w shift+h",
+    "command": "workbench.action.moveEditorToPreviousGroup",
+    "when": "(vim.mode == 'Normal' && activeEditor && (editorTextFocus || !inputFocus)) || terminalEditorFocus"
+  },
+  {
+    "key": "ctrl-w shift+l",
+    "command": "workbench.action.moveEditorToNextGroup",
+    "when": "(vim.mode == 'Normal' && activeEditor && (editorTextFocus || !inputFocus)) || terminalEditorFocus"
+  },
+  {
+    "key": "ctrl-w shift+j",
+    "command": "workbench.action.moveEditorToBelowGroup",
+    "when": "(vim.mode == 'Normal' && activeEditor && (editorTextFocus || !inputFocus)) || terminalEditorFocus"
+  },
+  {
+    "key": "ctrl-w shift+k",
+    "command": "workbench.action.moveEditorToAboveGroup",
+    "when": "(vim.mode == 'Normal' && activeEditor && (editorTextFocus || !inputFocus)) || terminalEditorFocus"
+  },
+  {
     "key": "space f f",
     "command": "workbench.action.quickOpen",
     "when": "vim.mode == 'Normal' && (editorTextFocus || !inputFocus)"
