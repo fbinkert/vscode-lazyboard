@@ -16,6 +16,16 @@
     "command": "workbench.action.navigateDown"
   },
   {
+    "key": "ctrl+.",
+    "command": "workbench.action.increaseViewSize",
+    "when": "activeEditor"
+  },
+  {
+    "key": "ctrl+,",
+    "command": "workbench.action.decreaseViewSize",
+    "when": "activeEditor"
+  },
+  {
     "key": "space e",
     "command": "runCommands",
     "args": {
@@ -155,6 +165,26 @@
   {
     "key": "ctrl-w shift+k",
     "command": "workbench.action.moveEditorToAboveGroup",
+    "when": "(vim.mode == 'Normal' && activeEditor && (editorTextFocus || !inputFocus)) || terminalEditorFocus"
+  },
+  {
+    "key": "ctrl-w shift+.",
+    "command": "workbench.action.increaseViewSize",
+    "when": "(vim.mode == 'Normal' && activeEditor && (editorTextFocus || !inputFocus)) || terminalEditorFocus"
+  },
+  {
+    "key": "ctrl-w shift+,",
+    "command": "workbench.action.decreaseViewSize",
+    "when": "(vim.mode == 'Normal' && activeEditor && (editorTextFocus || !inputFocus)) || terminalEditorFocus"
+  },
+  {
+    "key": "ctrl-w shift+=",
+    "command": "workbench.action.increaseViewSize",
+    "when": "(vim.mode == 'Normal' && activeEditor && (editorTextFocus || !inputFocus)) || terminalEditorFocus"
+  },
+  {
+    "key": "ctrl-w -",
+    "command": "workbench.action.decreaseViewSize",
     "when": "(vim.mode == 'Normal' && activeEditor && (editorTextFocus || !inputFocus)) || terminalEditorFocus"
   },
   {

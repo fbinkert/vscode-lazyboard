@@ -10,6 +10,7 @@
 ## Navigation And Windows
 
 - `Ctrl-h/j/k/l` -> move editor focus
+- `Ctrl-.` / `Ctrl-,` -> increase / decrease split size
 - `<leader>e` -> toggle explorer
 - `<leader>-` -> split below
 - `<leader>|` -> split right
@@ -24,6 +25,8 @@
 - `Ctrl-w v` -> split right
 - `Ctrl-w c` -> close editor
 - `Ctrl-w H/J/K/L` -> move active editor between groups
+- `Ctrl-w >` / `Ctrl-w +` -> increase split size
+- `Ctrl-w <` / `Ctrl-w -` -> decrease split size
 - `<leader>f f` -> find files
 - `<leader>f g` -> grep in files
 - `<leader>f t` -> create terminal editor
